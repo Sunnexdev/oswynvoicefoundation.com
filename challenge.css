@@ -200,7 +200,7 @@ button a {
 }
 
 .hero-rates-container .rate-figure {
-  /* width: 200px; */
+  width: 210px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -208,7 +208,7 @@ button a {
 
 .hero-rates-container .rate-figure .rate-no {
   display: flex;
-  gap: 4px;
+  gap: 3px;
 }
 
 .hero-rates-container .rate-figure .rate-no h1 {
@@ -532,11 +532,11 @@ footer {
   }
   /* navigation */
   .navigation-bar {
-    gap: 20px;
+    gap: 26px;
   }
 
   .navbar ul {
-    gap: 15px;
+    gap: 20px;
   }
   .navbar ul li {
     font-size: 0.875rem;
@@ -567,7 +567,17 @@ footer {
   }
 
   .hero-rates-container {
-    padding-inline: 40px;
+    padding-inline: 30px;
+  }
+
+  .hero-rates-container .rate-figure {
+    width: 200px;
+    gap: 12px;
+  }
+
+  .hero-rates-container .rate-figure .rate-no {
+    display: flex;
+    gap: 3px;
   }
 
   .hero-rates-container .rate-figure .rate-no h1 {
@@ -629,6 +639,10 @@ footer {
   .support-container h1 {
     font-size: 2rem;
   }
+
+  .support-container p {
+    font-size: 1.25rem;
+  }
   /* FOOTER */
 
   .footer-list {
@@ -688,7 +702,7 @@ footer {
 
   .navbar ul {
     display: flex;
-    gap: 16px;
+    gap: 13px;
   }
 
   .footer-list {
@@ -699,13 +713,6 @@ footer {
 /* RESPONSIVE FOR LARGER THAN 600px SCREEN */
 @media (max-width: 600px) {
   /* GENERAL */
-  /* :root {
-    --section-padding: 30px;
-  }
-
-  .section {
-    margin-inline: 20px;
-  } */
 
   ion-icon {
     font-size: 1.5rem;
@@ -742,19 +749,23 @@ footer {
   }
 
   .hero-rates-container {
-    padding-inline: 40px;
+    padding-inline: 20px;
+  }
+
+  .hero-rates-container .rate-figure {
+    width: 150px;
   }
 
   .hero-rates-container .rate-figure .rate-no h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .hero-rates-container .rate-figure .rate-no p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .hero-rates-container .rate-figure p {
-    font-size: 8px;
+    font-size: 0.625rem;
   }
 
   /* ABOUT */
@@ -802,7 +813,7 @@ footer {
 
   /*FOOTER*/
   .footer-list {
-    padding-inline-start: 20px;
+    padding-inline-start: 40px;
     padding-inline-end: 54px;
   }
   .newsletter .news-mail input {
@@ -825,7 +836,7 @@ footer {
   }
   /* HEADER */
   .navigation-bar {
-    gap: 250px;
+    gap: 240px;
   }
 
   /* HERO */
@@ -838,6 +849,10 @@ footer {
     padding-inline: 0px;
   }
 
+  .hero-rates-container .rate-figure {
+    width: 100px;
+  }
+
   .hero-rates-container .rate-figure .rate-no h1 {
     font-size: 1.75rem;
   }
@@ -847,7 +862,7 @@ footer {
   }
 
   .hero-rates-container .rate-figure p {
-    font-size: 0.5rem;
+    font-size: 0.5625rem;
   }
 
   /* ABOUT */
@@ -955,6 +970,11 @@ footer {
   .hero-content p {
     font-size: 0.875rem;
   }
+
+  .hero-rates-container .rate-figure {
+    width: 120px;
+  }
+
   .hero-rates-container .rate-figure .rate-no h1 {
     font-size: 1.5rem;
   }
@@ -964,19 +984,27 @@ footer {
   }
 
   .hero-rates-container .rate-figure p {
-    font-size: 0.4375rem;
+    font-size: 0.6255rem;
   }
 
   .hero-rates-container .rate-figure {
-    /* width: 200px; */
-    /* display: flex; */
-    /* flex-direction: column; */
     gap: 8px;
   }
 
   .hero-rates-container .rate-figure .rate-no {
-    /* display: flex; */
     gap: 4px;
+  }
+
+  /* ABOUT */
+
+  .about-img {
+    width: 350px;
+  }
+
+  /* PROJECT */
+
+  .project-img {
+    width: 350px;
   }
 
   /* SUPPORT */
@@ -1014,6 +1042,11 @@ footer {
   .hero-content p {
     font-size: 0.75rem;
   }
+
+  .hero-rates-container .rate-figure {
+    width: 100px;
+  }
+
   .hero-rates-container .rate-figure .rate-no h1 {
     font-size: 1.125rem;
   }
@@ -1155,16 +1188,20 @@ footer {
   .hero-content p {
     font-size: 0.625rem;
   }
+  .hero-rates-container .rate-figure {
+    width: 90px;
+  }
+
   .hero-rates-container .rate-figure .rate-no h1 {
     font-size: 1rem;
   }
 
   .hero-rates-container .rate-figure .rate-no p {
-    font-size: 0.4375rem;
+    font-size: 0.5rem;
   }
 
   .hero-rates-container .rate-figure p {
-    font-size: 0.4375rem;
+    font-size: 0.5rem;
   }
   /* ABOUT */
 
