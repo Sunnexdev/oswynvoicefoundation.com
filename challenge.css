@@ -327,8 +327,8 @@ main {
 /* SUPPORT */
 
 .support .support-container {
-  max-width: 80%;
-  height: 480px;
+  max-width: 1132px;
+  max-height: 480px;
   background-image: url(image/support.png);
   background-color: var(--accent-color);
   border-radius: 24px;
@@ -685,6 +685,12 @@ footer {
     max-width: 733px;
     width: 100%;
   }
+
+  .navbar ul {
+    display: flex;
+    gap: 16px;
+  }
+
   .footer-list {
     padding-inline-end: 86px;
   }
@@ -770,6 +776,11 @@ footer {
   }
 
   /*SUPPORT*/
+  .support .support-container {
+    width: 500px;
+    padding: 24px 25px 24px 26px;
+  }
+
   .support-container h1 {
     font-size: 1.5rem;
   }
@@ -865,6 +876,11 @@ footer {
     width: 140%;
   }
 
+  /* SUPPORT */
+  .support .support-container {
+    width: 400px;
+  }
+
   /* QUESTION */
   .header-content h3 {
     width: 400px;
@@ -887,6 +903,12 @@ footer {
     grid-template-columns: 1fr;
     column-gap: 50px;
   }
+  /* .newsletter {
+    text-align: left;
+  } */
+  /* .newsletter .news-mail input {
+    padding: 12px 40px 12px 24px;
+  } */
 
   .logo-side .logo-content p {
     font-size: 6px;
@@ -945,10 +967,19 @@ footer {
     font-size: 0.4375rem;
   }
 
+  /* SUPPORT */
+  .support .support-container {
+    width: 350px;
+  }
+
   /* FOOTER */
   .newsletter {
     width: 100%;
     text-align: left;
+  }
+  .newsletter .news-mail input {
+    padding: 12px 40px 12px 24px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1020,6 +1051,9 @@ footer {
   }
 
   /* SUPPORT */
+  .support .support-container {
+    width: 290px;
+  }
   .support-container h1 {
     font-size: 18px;
   }
@@ -1059,7 +1093,7 @@ footer {
   /* FOOTER */
 
   .newsletter .news-mail input {
-    padding: 12px 100px 12px 24px;
+    padding: 12px 85px 12px 24px;
     margin-bottom: 20px;
   }
   .newsletter button {
@@ -1154,7 +1188,9 @@ footer {
     width: 175%;
   }
   /* SUPPORT */
-
+  .support .support-container {
+    width: 250px;
+  }
   .support-container h1 {
     font-size: 1rem;
   }
@@ -1185,7 +1221,7 @@ footer {
   }
 
   .newsletter .news-mail input {
-    padding: 12px 50px 12px 24px;
+    padding: 12px 30px 12px 24px;
     border-radius: 12px;
     background: transparent;
     border: 1px solid #fff;
