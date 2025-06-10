@@ -79,7 +79,7 @@ ion-icon {
 /* HEADER */
 
 .header {
-  background: url("/image/Hero\ background.png");
+  background: url("image/Hero\ background.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
