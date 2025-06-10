@@ -360,8 +360,6 @@ main {
 }
 
 .header-body p {
-  /* font-size: 15px; */
-  /* font-weight: light; */
   line-height: 2.4rem;
 }
 
@@ -513,13 +511,6 @@ footer {
   }
 
   /* navigation */
-  /* .navigation-bar {
-    gap: 10rem;
-  }
-
-  .navbar ul {
-    gap: 1.25rem;
-  } */
   /* FOOTER BTN */
   .footer-btn {
     margin-top: 3rem;
